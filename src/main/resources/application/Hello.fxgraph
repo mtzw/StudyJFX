@@ -1,0 +1,30 @@
+package application
+
+import javafx.scene.layout.*
+import javafx.scene.control.*
+import javafx.geometry.*
+import javafx.scene.text.*
+
+import application.HelloController
+
+component Hello controlledby HelloController {
+	BorderPane {
+		center : VBox {
+			padding : Insets {
+				top : 10,
+				bottom : 10,
+				left : 10,
+				right : 10
+			},
+			spacing : 10.0, Button id myButton {
+				text : "クリックしてね",
+				onMouseClicked : controllermethod nextView
+			}, Label id myLabel {
+
+				font : Font {
+					size : 24.0
+				}
+			}
+		}
+	}
+}

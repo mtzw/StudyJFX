@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="fxml"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_21/jre/lib/jfxrt.jar"/>
-	<classpathentry kind="con" path="at.bestsolution.efxclipse.tooling.jdt.core.JAVAFX_CONTAINER"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" output="target/classes" path="src/main/scala"/>
+	<classpathentry kind="src" output="target/classes" path="src/main/java"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/scala"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry kind="lib" path="C:/Users/t4281/.ivy2/cache/org.controlsfx/controlsfx/jars/controlsfx-8.0.5.jar" sourcepath="C:/Users/t4281/.ivy2/cache/org.controlsfx/controlsfx/srcs/controlsfx-8.0.5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t4281/.ivy2/cache/org.mockito/mockito-all/jars/mockito-all-1.9.5.jar" sourcepath="C:/Users/t4281/.ivy2/cache/org.mockito/mockito-all/srcs/mockito-all-1.9.5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t4281/.ivy2/cache/com.novocode/junit-interface/jars/junit-interface-0.10.jar" sourcepath="C:/Users/t4281/.ivy2/cache/com.novocode/junit-interface/srcs/junit-interface-0.10-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t4281/.ivy2/cache/junit/junit-dep/jars/junit-dep-4.10.jar" sourcepath="C:/Users/t4281/.ivy2/cache/junit/junit-dep/srcs/junit-dep-4.10-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t4281/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar" sourcepath="C:/Users/t4281/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/t4281/.ivy2/cache/org.scala-tools.testing/test-interface/jars/test-interface-0.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -1,22 +1,19 @@
-package apps;
-
-import javafx.application.Application;
-import fw.app.AbstractApplication;
+package application;
 
 public class Main extends AbstractApplication {
 
 	public static void main(String[] args) {
-		Application.launch();
+		launch(args);
 	}
 
 	@Override
 	protected String getApplicationTitle() {
-		return "ƒTƒ“ƒvƒ‹‚Å‚·";
+		return "Try JavaFX2";
 	}
 
 	@Override
 	protected String getRootSceneName() {
-		return "view1";
+		return "Hello";
 	}
 
 }

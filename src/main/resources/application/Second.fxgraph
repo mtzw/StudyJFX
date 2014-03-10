@@ -1,0 +1,16 @@
+package application
+
+import javafx.scene.layout.VBox
+import javafx.scene.control.Button
+
+import application.SecondController
+
+component Second controlledby SecondController {
+	VBox {
+		Button id button1 {
+			onMouseClicked : controllermethod button1OnClick
+		}, Button id button2 {
+			onMouseClicked : controllermethod button2OnClick
+		}
+	}
+}
