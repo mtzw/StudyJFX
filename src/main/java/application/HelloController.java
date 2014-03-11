@@ -10,7 +10,9 @@ import javafx.scene.input.MouseEvent;
 
 import org.controlsfx.dialog.Dialogs;
 
-public class HelloController extends AbstractController {
+import com.github.mtzw.javafx.JavafxController;
+
+public class HelloController extends JavafxController {
 	@FXML
 	Button myButton;
 

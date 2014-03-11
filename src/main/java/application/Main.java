@@ -1,19 +1,17 @@
 package application;
 
-public class Main extends AbstractApplication {
+import com.github.mtzw.javafx.JavafxApplication;
+
+public class Main extends JavafxApplication {
 
 	public static void main(String[] args) {
 		launch(args);
 	}
 
 	@Override
-	protected String getApplicationTitle() {
-		return "Try JavaFX2";
-	}
-
-	@Override
-	protected String getRootSceneName() {
-		return "Hello";
+	protected Configuration configure() {
+		return new Configuration("StudyJFX", "Hello", 640, 480,
+				"application.css");
 	}
 
 }

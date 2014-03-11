@@ -9,6 +9,7 @@ JFX.mainClass := Some("application.Main")
 JFX.javaOnly := true
 
 libraryDependencies ++= Seq(
+  "com.github.mtzw" % "javafx2-extension" % "1.0-SNAPSHOT",
   "org.controlsfx" % "controlsfx" % "8.0.5",
   "org.mockito" % "mockito-all" % "1.9.5" % "test->default",
   "com.novocode" % "junit-interface" % "0.10" % "test->default"
