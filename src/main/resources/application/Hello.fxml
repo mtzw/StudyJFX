@@ -15,7 +15,8 @@
 
 	<center>
 		<VBox spacing="10.0"> 
-			<Button fx:id="myButton" text="クリックしてね" onMouseClicked="#nextView"/> 
+			<Button fx:id="myButton" text="クリックしてね" onMouseClicked="#myButtonOnClick"/> 
+			<Button fx:id="switchButton" text="次の画面へ" onMouseClicked="#nextView"/> 
 			<Label fx:id="myLabel"> 
 				<font>
 					<Font size="24.0"/> 

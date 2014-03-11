@@ -4,12 +4,23 @@ import javafx.scene.layout.VBox
 import javafx.scene.control.Button
 
 import application.SecondController
+import javafx.scene.control.Label
+import javafx.scene.text.Font
 
 component Second controlledby SecondController {
 	VBox {
+		Label id header {
+			text : "２番目の画面",
+			font : Font {
+				size : 36
+			}
+		},
+		
 		Button id button1 {
+			text : "メッセージ",
 			onMouseClicked : controllermethod button1OnClick
 		}, Button id button2 {
+			text : "前の画面へ戻る",
 			onMouseClicked : controllermethod button2OnClick
 		}
 	}

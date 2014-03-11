@@ -19,11 +19,11 @@ public abstract class AbstractApplication extends Application {
 	abstract protected String getRootSceneName();
 
 	public double getApplicationWidth() {
-		return 400;
+		return 640;
 	}
 
 	public double getApplicationHeight() {
-		return 400;
+		return 480;
 	}
 
 	protected Stage stage;
@@ -58,11 +58,8 @@ public abstract class AbstractApplication extends Application {
 			Logger.getLogger(getClass().getName()).log(Level.SEVERE, null, e);
 		}
 
-		AbstractController controller = (AbstractController) loader
-				.getController();
-		controller.setApplication(this);
-
-		return controller;
+		return AbstractController.class.cast(loader.getController())
+				.setUp(this);
 	}
 
 }

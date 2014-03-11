@@ -16,10 +16,16 @@ component Hello controlledby HelloController {
 				left : 10,
 				right : 10
 			},
-			spacing : 10.0, Button id myButton {
+			spacing : 10.0,
+			Button id myButton {
 				text : "クリックしてね",
+				onMouseClicked : controllermethod myButtonOnClick
+			},
+			Button id switchButton {
+				text : "次の画面へ",
 				onMouseClicked : controllermethod nextView
-			}, Label id myLabel {
+			},
+			Label id myLabel {
 
 				font : Font {
 					size : 24.0

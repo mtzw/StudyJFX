@@ -5,10 +5,17 @@
 
 <?import java.lang.*?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <VBox xmlns:fx="http://javafx.com/fxml" fx:controller="application.SecondController">
 
-	<Button fx:id="button1" onMouseClicked="#button1OnClick"/> 
-	<Button fx:id="button2" onMouseClicked="#button2OnClick"/> 
+	<Label fx:id="header" text="２番目の画面"> 
+		<font>
+			<Font size="36"/> 
+		</font>
+	</Label>
+	<Button fx:id="button1" text="メッセージ" onMouseClicked="#button1OnClick"/> 
+	<Button fx:id="button2" text="前の画面へ戻る" onMouseClicked="#button2OnClick"/> 
 </VBox>
